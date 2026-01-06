@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gift Corner - Gifts</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8fb;
+        }
+
+        /* Header */
+        header {
+            background-color: #ffffff;
+            padding: 12px 30px;
+            border-bottom: 1px solid #f3c6d3;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: cursive;
+            font-size: 24px;
+            color: #f48fb1;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #555;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #f48fb1;
+        }
+
+        /* Gifts Section */
+        .gifts {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .gifts h1 {
+            font-family: Georgia, serif;
+            font-size: 34px;
+            color: #f48fb1;
+        }
+
+        .gift-grid {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .gift-card {
+            background-color: white;
+            width: 220px;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #f3c6d3;
+        }
+
+        .gift-card h3 {
+            color: #f48fb1;
+        }
+
+        .gift-card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .gift-card button {
+            margin-top: 10px;
+            padding: 8px 18px;
+            background-color: #f48fb1;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .gift-card button:hover {
+            background-color: #f6a5c0;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 60px;
+            padding: 12px;
+            background-color: #f48fb1;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header (SAME) -->
+    <header>
+        <div class="logo">&#127873; Gift Corner</div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="gift.html">Gifts</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Gift Page Content -->
+    <section class="gifts">
+        <h1>Our Gift Collection</h1>
+
+        <div class="gift-grid">
+            <div class="gift-card">
+                <h3>&#127874; Birthday Gifts</h3>
+                <p>Make birthdays special with thoughtful gifts.</p>
+                <button>View</button>
+            </div>
+
+            <div class="gift-card">
+                <h3>&#128141; Anniversary Gifts</h3>
+                <p>Celebrate love with elegant gift ideas.</p>
+                <button>View</button>
+            </div>
+
+            <div class="gift-card">
+                <h3>&#127872; Custom Gifts</h3>
+                <p>Personalized gifts for your loved ones.</p>
+                <button>View</button>
+            </div>
+
+            <div class="gift-card">
+                <h3>&#128144; Festival Gifts</h3>
+                <p>Perfect gifts for festivals & celebrations.</p>
+                <button>View</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        @ Gift Corner
+    </footer>
+
+</body>
+</html>
