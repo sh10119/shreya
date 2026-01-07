@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: rgb(198, 184, 245);
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.btn {
+  background: rgb(255, 255, 255);
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.hero h1 {
+  font-family: cursive;
+ 
+}
+
+.hero {
+  background: linear-gradient(to right, #3939b9, #968bb5);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+}
+
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  width: 25%;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+
+footer {
+  background: #724aec;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+.contact {
+  display: flex;  
+  justify-content: center;
+  gap: 0px;
+  padding: 0px;
+}
+
+.contact-box {
+  width: 40%;                 
+}
+
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  padding: 40px;
+  background: #f6f8fc;
+}
+
+
+.contact-box {
+  width: 300px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-box input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-box button {
+  width: 90%;
+  padding: 10px;
+  background: #522c9e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.divider {
+  width: 2px;
+  background: #ccc;
+}
